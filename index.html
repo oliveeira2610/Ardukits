@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Central Fit - Vídeo Motivacional</title>
+  <title>Central Fit</title>
   <style>
     /* Reset e fonte geral */
     * {
@@ -28,7 +28,7 @@
       align-items: center;
       justify-content: flex-start;
       padding: 20px;
-      min-height: 85vh;
+      min-height: 95vh;
       text-align: center;
       overflow: hidden;
       gap: 20px;
@@ -128,6 +128,7 @@
       border-radius: 10px;
       padding: 15px;
       gap: 15px;
+      z-index: 100;
     }
 
     .mobile-menu a {
@@ -525,10 +526,10 @@
       <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5d38a319fd9d766cc30c0ccba8fee65d4699b3e?placeholderIfAbsent=true&apiKey=85289a55ca3d40cbb16bd145c88a24fb" alt="Logo" class="logo" />
 
       <nav class="navigation-menu">
-        <a href="#" class="nav-item">Home</a>
-        <a href="#" class="nav-item">Central Fit</a>
-        <a href="#" class="nav-item">Dúvidas frequentes</a>
-        <a href="#" class="nav-item">Nossos Planos</a>
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="sobreNos.html" class="nav-item">Central Fit</a>
+        <a href="#faq" class="nav-item">Dúvidas frequentes</a>
+        <a href="planos.html" class="nav-item">Nossos Planos</a>
       </nav>
 
       <div class="menu-toggle" onclick="toggleMenu()">
@@ -538,16 +539,16 @@
       </div>
 
       <div class="mobile-menu" id="mobileMenu">
-        <a href="#">Home</a>
-        <a href="#">Central Fit</a>
-        <a href="#">Dúvidas frequentes</a>
-        <a href="#">Nossos Planos</a>
+        <a href="index.html">Home</a>
+        <a href="sobreNos.html">Central Fit</a>
+        <a href="#faq">Dúvidas frequentes</a>
+        <a href="planos.html">Nossos Planos</a>
       </div>
     </div>
 
-    <h1 class="hero-heading">CONHEÇA A</h1>
+    <h1 class="hero-heading">CONHEÇA</h1>
     <h2 class="hero-subheading">CENTRAL FIT</h2>
-    <button class="cta-button">Confira nossos Planos</button>
+    <a class="cta-button" href="/planos.html">Confira nossos Planos</a>
   </section>
 
   <!-- VIDEO QUOTE SECTION CORRIGIDA -->
